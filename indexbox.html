@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/gridstyle.css">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="global-nav">
+        <div class="logo">
+          <h1 class="logo">
+            <a href="/">Runners Info</a>
+          </h1>
+        </div>
+        <ul>
+          <li class="nav-item active"><a href="#">国内</a></li>
+          <li class="nav-item"><a href="#">海外</a></li>
+          <li class="nav-item"><a href="#">Funrun</a></li>
+          <li class="nav-item"><a href="#">News</a></li>
+          <li class="nav-item"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="item">
+      <a href="#">
+        <img class="image" src="images/image_S_1.jpg" alt="Main dish">
+        <div class="category">Naha</div>
+        <p class="description">
+          那覇マラソンにチャレンジ！！<br>
+          Load to NAHA Marathon!!
+        </p>
+      </a>
+    </section>
+    <section class="item">
+      <a href="#">
+        <img class="image" src="images/image_S_2.jpg" alt="Main dish">
+        <div class="category">Kanagawa</div>
+        <p class="description">
+          湘南国際マラソンにチャレンジ！！<br>
+          Load to Shonan International Marathon!!
+        </p>
+      </a>
+    </section>
+    <section class="item">
+      <a href="#">
+        <img class="image" src="images/image_S_3.jpg" alt="Main dish">
+        <div class="category">Vietnam</div>
+        <p class="description">
+          ダナンマラソンにチャレンジ！！<br>
+          Load to Da Nang Marathon!!
+        </p>
+      </a>
+    </section>
+    <section class="item">
+      <a href="#">
+        <img class="image" src="images/image_S_4.jpg" alt="Main dish">
+        <div class="category">Ibaragi</div>
+        <p class="description">
+          勝田マラソンにチャレンジ！！<br>
+          Load to Katsuta Marathon!!
+        </p>
+      </a>
+    </section>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.0/masonry.pkgd.js"></script>
+    <script>
+      new Masonry('body', {
+        itemSelector: '.item',
+        clumnWidth: 180,
+        gutter: 4
+      });
+      )
+    </script>
+  </body>
+</html>
